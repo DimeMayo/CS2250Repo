@@ -1,0 +1,216 @@
+
+body {/* Requirement-2.A */
+	background-color: #FFF378; /* Requirement-2.4 */}
+
+
+
+footer {position: fixed; /* Requirement-2.15 */
+    bottom:0;
+	left:0;
+    height: 50px; /* Requirement-2.9 */
+	background-color: #FF855E;
+	text-align:center;
+	box-shadow: 0px -2px 30px black;
+	width:100%;
+	
+	}
+	
+
+footer p { /* Requirement-2.F */
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #961900;
+}
+
+details > summary{/* Requirement-2.G */ /* Requirement-2.H */
+	background-color: #FF855E; 
+	border-radius: 0px 30px 30px 0px;
+	font-family: Helvetica, sans-serif;
+	color: #961900;
+	font-size: 20px;
+	font-weight: 600;
+	padding:20px;
+	width: 130px;
+	border-left-style: solid;
+	border-left-width: 10px;
+	border-left-color: #961900;
+}
+details > table{
+	background-color: #FF855E; 
+	border-radius: 0px 30px 30px 0px;
+	font-family: Helvetica, sans-serif;
+	color: #961900;
+	font-size: 20px;
+	font-weight: 600;
+	padding:20px;
+	width: 130px;
+	border-left-style: solid;
+	border-left-width: 10px;
+	border-left-color: #961900;
+	width:100%;
+}
+
+table, td {
+	border:1px solid #FFF378;
+	padding:15px;
+}
+
+#list {
+	list-style-type: circle; /* Requirement-2.8 */
+	color: #FFF378;
+}
+
+a:link{ /* Requirement-2.E */
+	background-color: #FFF378;
+	color: #961900;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	border-style: outset;
+	border-color: #FFF378;
+}
+a:visited{
+	background-color: #FFF378;
+	color: #961900;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	border-style: outset;
+	border-color: #FFF378;
+}
+a:hover{
+	background-color: #961900;
+	color: #FFF378;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	border-style: outset;
+	border-color: #961900;
+	cursor:pointer;
+}
+a:active{
+	background-color: #FFF378;
+	color: #961900;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	border-style: inset;
+	border-color: #FFF378;
+	cursor:pointer;
+}
+
+.space {
+	position:relative;
+	 height: 100px;
+	 bottom: 0;
+	 float: right;
+	 clear: left;
+	 visibility: hidden; /* Requirement-2.16 */
+}
+	
+nav {
+	position: fixed; 
+	top: 0;
+	left: 0;
+    right: 0;
+	width:96%;
+	background-color: #EB6B46;
+	padding: 20px;
+	border-radius: 0px 0px 30px 30px;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #961900;
+	overflow: visible; /* Requirement-2.14 */
+	z-index: 1; /* Requirement-2.17 */
+	
+	}
+
+h1, h2 {/* Requirement-2.B */
+	font-family: Helvetica, sans-serif;
+	color: #961900;
+	}
+	
+#list {/* Requirement-2.D */
+	background-color: #961900;
+	border-radius: 15px 15px 15px 15px;
+	padding: 50px;
+	box-shadow: 0px 5px 15px black;
+}
+	
+.Section1 { /* Requirement-2.C */
+	position: relative;
+	background-color: #FF855E; 
+	border-radius: 0px 30px 30px 0px; /* Requirement-2.5 */
+	padding: 20px; /* Requirement-2.6 */
+	border-left-style: solid;
+	border-left-width: 10px;
+	border-left-color: #961900;
+	width: 825px; /* Requirement-2.7 */
+	float:left; /* Requirement-2.11 */
+	clear:right; /* Requirement-2.13 */
+	box-shadow: 0px 5px 15px black;
+	}
+	
+.Section2 {
+	position: relative;
+	background-color: #FF855E; 
+	border-radius: 30px 0px 0px 30px;
+	padding: 20px;
+	border-right-style: solid;
+	border-right-width: 10px;
+	border-right-color: #961900;
+	width: 825px;
+	float:right;
+	clear:left;
+	box-shadow: 0px 5px 15px black;}
+
+.description {/* Requirement-2.C */
+	position: relative;
+	background-color: #EB6B46; 
+	border-radius: 15px;
+	padding: 20px;
+	font-family: Helvetica, sans-serif; /* Requirement-2.1 */
+	font-size: 20px;
+	font-weight: 600;
+	color: #961900; /* Requirement-2.3 */
+	text-indent: 50px; /* Requirement-2.2 */}
+
+.figure1 {
+	position: relative;
+	background-color: #912929;
+	border-radius: 15px;
+	padding: 18px;
+	display: block; /* Requirement-2.12 */
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width:690px;
+}
+.figure2 {
+	position: relative;
+	background-color: #912929;
+	border-radius: 15px;
+	padding: 18px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width:345px;
+	
+}
+
+.images{
+	width:100%; /* Requirement-2.10 */
+}
+.image1{
+	width:340px;
+}
